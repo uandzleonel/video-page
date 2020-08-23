@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  {% block head %}
+    <title>Uanderson Leonel</title>
+  {% endblock %}
+
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <header>
+    <div class="links">
+      <a href="/">Sobre</a>
+      <a href="/videos">Vídeos</a>
+    </div>
+  </header>
+  
+  {% block content %}{% endblock %}
+
+  <footer>
+    <h2>Feito com <span class="heart-icon">♥</span> por <a class="footer-link" href="https://github.com/uandzleonel" target="_blank">Uanderson Leonel</a></h1>
+  </footer>
+</body>
+</html>
